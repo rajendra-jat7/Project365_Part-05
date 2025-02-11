@@ -43,8 +43,17 @@ nav a:hover {
 
 /* MOBILE NAVBAR */
 @media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.0rem;
+  }
+
   nav ul {
     flex-direction: column;
     align-items: center;
+    font-size: 1.2rem;
   }
 }

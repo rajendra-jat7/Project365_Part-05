@@ -42,6 +42,23 @@ h3{
   transform: scale(1.1);
 }
 
+.call-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background: #F9B101;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.call-link:hover {
+  background: #d88f00;
+  transform: scale(1.05);
+}
+
+
 @media (max-width: 600px) {
   .contact-card {
     width: 90%;
