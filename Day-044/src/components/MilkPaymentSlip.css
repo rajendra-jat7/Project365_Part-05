@@ -1,0 +1,68 @@
+/* Milk Payment Slip Container */
+.milk-slip-container {
+    width: 320px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.milk-slip-container h2 {
+    color: #000;
+}
+
+.milk-slip {
+    text-align: left;
+    font-size: 14px;
+    white-space: pre-line;
+    color: black;
+}
+
+.milk-slip input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    font-family: inherit;
+}
+
+.milk-slip button {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.milk-slip button:hover {
+    background: darkgray;
+}
+
+.milk-slip-header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.milk-slip p {
+    margin: 3px 0;
+    line-height: 1.2;
+}
+
+.separator {
+    border-top: 1px dashed black;
+    margin: 5px 0;
+}
+
+.milk-slip .row {
+    display: flex;
+    justify-content: space-between;
+}
