@@ -20,7 +20,7 @@ const PomodoroTimer = () => {
       setTimeLeft(isBreak ? defaultWorkTime : defaultBreakTime);
     }
     return () => clearInterval(timer);
-  }, [isRunning, timeLeft, isBreak]);
+  }, [isRunning, timeLeft, isBreak, defaultWorkTime, defaultBreakTime]);
 
   const toggleTimer = () => {
     setIsRunning((prev) => !prev);
