@@ -1,0 +1,29 @@
+/* Default Light Mode */
+body.light {
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: #222;
+    color: gray;
+  }
+  
+  /* Theme Toggle Button */
+  .theme-toggle {
+    background: #f9b101;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .theme-toggle:hover {
+    background: darkorange;
+  }
+  
