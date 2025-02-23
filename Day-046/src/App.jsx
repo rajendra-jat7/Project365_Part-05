@@ -1,9 +1,9 @@
-import YouTubeFetcher from "./components/YoutubeFetcher";
-import "./components/YoutubeFetcher.css";
+import YouTubeFetcher from './components/YoutubeFetcher';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <YouTubeFetcher />
     </div>
   );
